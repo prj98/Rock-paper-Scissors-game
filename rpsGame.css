@@ -1,0 +1,39 @@
+input{
+    background-color: rgb(206, 206, 221);
+    margin-left:7rem;
+}
+button{
+    background-color: black;
+    color:white;
+}
+p{
+    display: inline;
+    font-size:22px;
+}
+.select{
+    display: flex;
+    justify-content:space-around;
+}
+.choose{
+    padding:14px;
+    width: 100px;
+    border-radius: 5px;
+    background: rgb(148, 56, 148);
+    cursor: pointer;
+}
+span{
+    font-size: 22px;
+}
+#gr{
+    background-color:black;
+    color:whitesmoke;
+}
+#restart{
+    display:none;
+     padding:14px;
+    width: 100px;
+    border-radius: 5px;
+    background: green;
+    cursor: pointer;
+    margin-left: 50%;
+}

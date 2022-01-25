@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="rpsGame.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+  <input data-ns-test="game-number"  type="number" placeholder="enter no. of round"id="inputval">
+  <button data-ns-test="play-game" onclick="playGame()" id="play">play</button>
+   <br>
+   <br>
+         <div class="select">
+              <button data-ns-test="rock" class="choose" id="rock" onclick="rockplay()">ROCK</button>
+              <button data-ns-test="paper" class="choose" id="paper" onclick="paperplay()">PAPER</button>
+              <button data-ns-test="scissors" class="choose" id="scissors" onclick="scissorsplay()">SCISSORS</button>   
+          </div> 
+  <h2 data-ns-test="computer-choose" >Computer choosen: <span id="demo"></span></h2>
+  <h2 data-ns-test="round-result" >Round result: <span id="rr"></span> </h2>
+  <h2 data-ns-test="user-points">User points: <span id="up"></span> </h2>   
+  <h2 data-ns-test="computer-points">Computer points: <span id="cp"></span> </h2>
+  <h2 data-ns-test="rounds-left">Round left: <p id="roundleft"></p></h2>
+  <h2 data-ns-test="game-result">Game result: <p id="gr"></p> </h2>
+  <br>
+  <button  id="restart" onclick="document.location.reload(true)">RESTART</button></div>
+  
+    <script src="rpsGame.js"></script>
+</body>
+</html>
